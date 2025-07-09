@@ -7,10 +7,10 @@ const data = {
 
 const GetToKnow = () => {
   return (
-    <div className='min-h-[70vh] w-screen bg-gray-200 flex flex-col items-center justify-center p-12 font-main'>
-        <h2 className="text-5xl font-light text-gray-700">{data.title}</h2>
+    <div className='min-h-[70vh] w-screen bg-gray-200 flex flex-col items-center justify-center py-12 p-6 md:p-12 font-main'>
+        <h2 className="text-4xl md:text-5xl font-light text-gray-700 text-center">{data.title}</h2>
         <div className="w-24 h-1 bg-orange-500 mt-4 mb-8"></div>
-        <p className="text-center text-gray-600 max-w-4xl text-xl font-light leading-7">
+        <p className="text-lg md:text-xl text-center text-gray-600 max-w-4xl font-light leading-7">
             {data.description}
         </p>
         <button className="mt-8 px-8 py-3 border border-orange-500 rounded-full text-orange-500 font-light hover:bg-orange-500 hover:text-white transition-all ease-in-out duration-200 cursor-pointer">Learn More</button>

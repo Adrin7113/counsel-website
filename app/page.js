@@ -16,7 +16,7 @@ export default function Home() {
     <Landing />
     <GetToKnow />
     <SeekHelp />
-    <HowItWorks />
+    {/* <HowItWorks /> */}
     <Services />
     <Testimonials />
     <ContactForm />
